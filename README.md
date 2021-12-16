@@ -1,13 +1,13 @@
 # Fine-Tuning Pre-Trained NER Models
 
 ##### Course project
-#####  NLP and AI seminar 2021 
+##### NLP and AI seminar 2021 
 ##### University of Latvia
 
 
 ## About
 
-The repo holds 3 NER models that where fine-tuned as part of this project as well as Jupyter Notebooks that demonstrate the results of the training as well as the basic usage of the models and some that depict the training steps. 
+The repo holds 3 NER models that where fine-tuned as part of this project, several Jupyter Notebooks that demonstrate the results of the training as well as the basic usage of the models and some that depict the training steps. 
 
 All datasets that the 3 models were trained on, were first cleared from all labels but those that describe personal names (B-PER, I-PER and similar). For example:
 ```console
@@ -23,7 +23,7 @@ This project uses the [Flair](https://github.com/flairNLP/flair) framework - a p
 | Language | Dataset | F-score | Folder | Embeddings used
 |  ---  | ----------- | ---------------- | ------------- | ------------- |
 | English | Conll-03 (originally 4-class, reduced to 1)   |  **0.9694**  | [eng-ner-flair-edit](/resources/taggers/eng-ner-flair-edit) | [Flair embeddings, news-X](https://github.com/flairNLP/flair/blob/master/resources/docs/embeddings/FLAIR_EMBEDDINGS.md)  |
-| Latvian | [LUMII AILab](https://github.com/LUMII-AILab) data |  **0.9391**  | [lv-ner-flair-edit](/resources/taggers/lv-ner-flair-edit) | [BERT Emoji Latvian Twitter ](https://huggingface.co/FFZG-cleopatra/bert-emoji-latvian-twitter) |
+| Latvian | [LUMII AILab](https://github.com/LUMII-AILab) data |  **0.9391**  | [lv-ner-flair-edit](./resources/taggers/lv-ner-flair-edit) | [BERT Emoji Latvian Twitter ](https://huggingface.co/FFZG-cleopatra/bert-emoji-latvian-twitter) |
 | Russian  | MultiCoNER: SemEval-2022   |  **0.7358**  | [rus-ner-flair-edit](/resources/taggers/eng-rus-flair-edit) | [DeepPavlov RuBERT Base Cased](https://huggingface.co/DeepPavlov/rubert-base-cased)  |
 
 
@@ -49,4 +49,4 @@ pip install -r /path/to/requirements.txt
 
 ## Contact
 
-Please contact [Alan Akbik](http://alanakbik.github.io/) if any comments or questions arise.
+Please contact [Me](https://github.com/ad09009) if any comments or questions arise.
