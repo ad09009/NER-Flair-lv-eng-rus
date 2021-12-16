@@ -21,13 +21,13 @@ This project uses the [Flair](https://github.com/flairNLP/flair) framework - a p
 ## Models
 
 | Language | Dataset | F-score | Folder | Embeddings used
-|  ---  | ----------- | ---------------- | ------------- | ------------- |
+|  ---  | ------------- | ----------------- | -------------- | -------------- |
 | English | Conll-03 (originally 4-class, reduced to 1)   |  **0.9694**  | [eng-ner-flair-edit](https://github.com/ad09009/NER-Flair-lv-eng-rus/tree/main/resources/taggers/eng-ner-flair-edit) | [Flair embeddings, news-X](https://github.com/flairNLP/flair/blob/master/resources/docs/embeddings/FLAIR_EMBEDDINGS.md)  |
 | Latvian | [LUMII AILab](https://github.com/LUMII-AILab) data |  **0.9391**  | [lv-ner-flair-edit](https://github.com/ad09009/NER-Flair-lv-eng-rus/tree/main/resources/taggers/lv-ner-flair-edit) | [BERT Emoji Latvian Twitter ](https://huggingface.co/FFZG-cleopatra/bert-emoji-latvian-twitter) |
 | Russian  | MultiCoNER: SemEval-2022   |  **0.7358**  | [rus-ner-flair-edit](https://github.com/ad09009/NER-Flair-lv-eng-rus/tree/main/resources/taggers/rus-ner-flair-edit) | [DeepPavlov RuBERT Base Cased](https://huggingface.co/DeepPavlov/rubert-base-cased)  |
 
 
-## Requirements and how to
+## Requirements and 'how to'
 
 The project is based on Flair 0.10 which runs on PyTorch 1.5+.
 Python 3.8 was used.
@@ -35,7 +35,14 @@ Also JupyterLab 3.2.4.
 
 #### How to: 
 
+Clone the repo:
+
+```
+git clone https://github.com/ad09009/NER-Flair-lv-eng-rus.git /your/path/here
+```
+
 In your favorite virtual environment run: 
+
 ```
 pip install flair
 pip install jupyterlab
@@ -56,6 +63,11 @@ Download the model files and place them into corresponding folders:
 | Russian  | final-model.pt   |  resources/taggers/rus-ner-flair-edit  | [rus-ner-flair-edit](https://drive.google.com/file/d/1-8v5o_IoqZ20NJXC43wzDjI-jMlTF0Ba/view?usp=sharing) |
 
 
+Follow along the example usage in [Usage notebook](https://drive.google.com/file/d/1couddFD6xFhN-Kvj-FdyTPYn6YVWJ60i/view?usp=sharing) and [Results notebook](https://drive.google.com/file/d/1couddFD6xFhN-Kvj-FdyTPYn6YVWJ60i/view?usp=sharing).
+
+Also, check out [Flair Tutorials](https://github.com/flairNLP/flair/blob/master/resources/docs/TUTORIAL_1_BASICS.md).
+
+
 ## Contact
 
-Please contact [Me](https://github.com/ad09009) if any comments or questions arise.
+Feel free to contact [Me](https://github.com/ad09009) if any comments or questions arise.
