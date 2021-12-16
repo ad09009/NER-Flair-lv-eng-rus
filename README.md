@@ -53,7 +53,7 @@ Download the model files and place them into corresponding folders:
 |  ---  | ----------- | ---------------- | ------------- |
 | English | final-model.pt   |  resources/taggers/eng-ner-flair-edit  | [eng-ner-flair-edit](https://drive.google.com/file/d/1couddFD6xFhN-Kvj-FdyTPYn6YVWJ60i/view?usp=sharing) |
 | Latvian | final-model.pt |  resources/taggers/lv-ner-flair-edit  | [lv-ner-flair-edit](https://drive.google.com/file/d/1cNTEqA3WLJ5iROztW6BlQ2npb4bGwAwI/view?usp=sharing) |
-| Russian  | final-model.py   |  resources/taggers/rus-ner-flair-edit  | [rus-ner-flair-edit](https://drive.google.com/file/d/1-8v5o_IoqZ20NJXC43wzDjI-jMlTF0Ba/view?usp=sharing) |
+| Russian  | final-model.pt   |  resources/taggers/rus-ner-flair-edit  | [rus-ner-flair-edit](https://drive.google.com/file/d/1-8v5o_IoqZ20NJXC43wzDjI-jMlTF0Ba/view?usp=sharing) |
 
 
 ## Contact
