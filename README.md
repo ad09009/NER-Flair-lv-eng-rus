@@ -35,26 +35,26 @@ Also JupyterLab 3.2.4.
 
 #### How to: 
 
-Clone the repo:
+- Clone the repo:
 
 ```
 git clone https://github.com/ad09009/NER-Flair-lv-eng-rus.git /your/path/here
 ```
 
-In your favorite virtual environment run: 
+- In your favorite virtual environment run: 
 
 ```
 pip install flair
 pip install jupyterlab
 ```
 
-Or, alternatively:
+- Or, alternatively:
 
 ```python
 pip install -r /path/to/requirements.txt
 ```
 
-Download the model files and place them into corresponding folders:
+- Download the model files and place them into corresponding folders:
 
 | Model | Filename | Folder | Download link |
 |  ---  | ----------- | ---------------- | ------------- |
@@ -63,11 +63,11 @@ Download the model files and place them into corresponding folders:
 | Russian  | final-model.pt   |  resources/taggers/rus-ner-flair-edit  | [rus-ner-flair-edit](https://drive.google.com/file/d/1-8v5o_IoqZ20NJXC43wzDjI-jMlTF0Ba/view?usp=sharing) |
 
 
-Follow along the example usage in [Usage notebook](https://github.com/ad09009/NER-Flair-lv-eng-rus/blob/main/Usage.ipynb) and [Results notebook](https://github.com/ad09009/NER-Flair-lv-eng-rus/blob/main/results/Results.ipynb).
+- Follow along the example usage in [Usage notebook](https://github.com/ad09009/NER-Flair-lv-eng-rus/blob/main/Usage.ipynb) and [Results notebook](https://github.com/ad09009/NER-Flair-lv-eng-rus/blob/main/results/Results.ipynb).
 
 Also, check out [Flair Tutorials](https://github.com/flairNLP/flair/blob/master/resources/docs/TUTORIAL_1_BASICS.md).
 
 
 ## Contact
 
-Feel free to contact [Me](https://github.com/ad09009) if any comments or questions arise.
+Feel free to contact [me](https://github.com/ad09009) if any comments or questions arise.
