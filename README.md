@@ -7,9 +7,9 @@
 
 ## About
 
-The repo holds 3 NER models that where fine-tuned as part of this project, several Jupyter Notebooks that demonstrate the results of the training as well as the basic usage of the models and some that depict the training steps. 
+The repo holds (links to) 3 NER models that where fine-tuned as part of this project, several Jupyter Notebooks that demonstrate the results of the training as well as the basic usage of the models and some that depict the training steps. 
 
-All datasets that the 3 models were trained on, were first cleared from all labels but those that describe personal names (B-PER, I-PER and similar). For example:
+All datasets that the 3 models were trained on are also included and were first cleared from all labels but those that describe personal names (B-PER, I-PER and similar). For example:
 ```console
 2021-12-15 00:11:37,789 Created (for label 'ner') Dictionary with 4 tags: <unk>, O, B-PER, I-PER 
 Dictionary with 4 tags: <unk>, O, B-PER, I-PER
