@@ -22,9 +22,9 @@ This project uses the [Flair](https://github.com/flairNLP/flair) framework - a p
 
 | Language | Dataset | F-score | Folder | Embeddings used
 |  ---  | ----------- | ---------------- | ------------- | ------------- |
-| English | Conll-03 (originally 4-class, reduced to 1)   |  **0.9694**  | [eng-ner-flair-edit](/resources/taggers/eng-ner-flair-edit) | [Flair embeddings, news-X](https://github.com/flairNLP/flair/blob/master/resources/docs/embeddings/FLAIR_EMBEDDINGS.md)  |
-| Latvian | [LUMII AILab](https://github.com/LUMII-AILab) data |  **0.9391**  | [lv-ner-flair-edit](./resources/taggers/lv-ner-flair-edit) | [BERT Emoji Latvian Twitter ](https://huggingface.co/FFZG-cleopatra/bert-emoji-latvian-twitter) |
-| Russian  | MultiCoNER: SemEval-2022   |  **0.7358**  | [rus-ner-flair-edit](/resources/taggers/eng-rus-flair-edit) | [DeepPavlov RuBERT Base Cased](https://huggingface.co/DeepPavlov/rubert-base-cased)  |
+| English | Conll-03 (originally 4-class, reduced to 1)   |  **0.9694**  | [eng-ner-flair-edit](https://github.com/ad09009/NER-Flair-lv-eng-rus/tree/main/resources/taggers/eng-ner-flair-edit) | [Flair embeddings, news-X](https://github.com/flairNLP/flair/blob/master/resources/docs/embeddings/FLAIR_EMBEDDINGS.md)  |
+| Latvian | [LUMII AILab](https://github.com/LUMII-AILab) data |  **0.9391**  | [lv-ner-flair-edit](https://github.com/ad09009/NER-Flair-lv-eng-rus/tree/main/resources/taggers/lv-ner-flair-edit) | [BERT Emoji Latvian Twitter ](https://huggingface.co/FFZG-cleopatra/bert-emoji-latvian-twitter) |
+| Russian  | MultiCoNER: SemEval-2022   |  **0.7358**  | [rus-ner-flair-edit](https://github.com/ad09009/NER-Flair-lv-eng-rus/tree/main/resources/taggers/rus-ner-flair-edit) | [DeepPavlov RuBERT Base Cased](https://huggingface.co/DeepPavlov/rubert-base-cased)  |
 
 
 ## Requirements and how to
@@ -47,7 +47,7 @@ Or, alternatively:
 pip install -r /path/to/requirements.txt
 ```
 
-Download to model files and place them into corresponding folders:
+Download the model files and place them into corresponding folders:
 
 | Model | Filename | Folder | Download link |
 |  ---  | ----------- | ---------------- | ------------- |
