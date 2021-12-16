@@ -47,6 +47,16 @@ Or, alternatively:
 pip install -r /path/to/requirements.txt
 ```
 
+Download to model files and place them into corresponding folders
+https://drive.google.com/file/d/1couddFD6xFhN-Kvj-FdyTPYn6YVWJ60i/view?usp=sharing
+
+| Model | Filename | Folder | Download link |
+|  ---  | ----------- | ---------------- | ------------- | ------------- |
+| English | final-model.pt   |  eng-ner-flair-edit  | [eng-ner-flair-edit](https://drive.google.com/file/d/1couddFD6xFhN-Kvj-FdyTPYn6YVWJ60i/view?usp=sharing) |
+| Latvian | final-model.pt |  lv-ner-flair-edit  | [lv-ner-flair-edit](https://drive.google.com/file/d/1cNTEqA3WLJ5iROztW6BlQ2npb4bGwAwI/view?usp=sharing) |
+| Russian  | final-model.py   |  rus-ner-flair-edit  | [rus-ner-flair-edit](https://drive.google.com/file/d/1-8v5o_IoqZ20NJXC43wzDjI-jMlTF0Ba/view?usp=sharing) |
+
+
 ## Contact
 
 Please contact [Me](https://github.com/ad09009) if any comments or questions arise.
